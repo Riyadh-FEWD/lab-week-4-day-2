@@ -84,7 +84,7 @@ h2 .services{
   text-align: center;
 
   }
-main{
+.main2{
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
@@ -94,10 +94,10 @@ main{
 line-height: 1;
 background: #D6D7CD;
 }
+
 main .Part-services{
   text-align: justify;
   padding: 20px;
-
 
 }
 h3 {
@@ -121,6 +121,8 @@ footer{
   padding: 20px;
   color:#F7CA6F;
   font-size: 10px;
+  margin-bottom: 0px;
+  bottom: 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -140,7 +142,6 @@ text-decoration: none;}
 }
 @media screen and (max-width: 1200px) {
 
-
   header h1{
     font-size: 25px;
   }
@@ -151,12 +152,14 @@ text-decoration: none;}
 }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
 
-  main{
-    display: block;
-    text-align: center;
+  .main3{
+    display:block;
+font-size: 10px;
+
   }
+
 
 }
 @media screen and (max-width:1000px) {
@@ -168,14 +171,26 @@ text-decoration: none;}
   }
 
   .Part-services{
+    display: block;
+    text-align: center;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 10px;
   background-color: #10113B;
   color: #FAF4A4;
+
     }
 }
 
 @media screen and (min-width:1001px) {
   img{
    visibility: hidden;}
+
+   .main3{
+     display:flex;
+ flex-direction: row;
+ background: #D6D7CD;
+    }
 }
+@media screen and (max-width: 400px) {
+  .Part-services{
+    font-size: 8px;}}
